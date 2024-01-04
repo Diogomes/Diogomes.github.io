@@ -921,6 +921,93 @@ section {
     display: inline-block;
   }
 }
+/*--------------------------------------------------------------
+# Project Page
+--------------------------------------------------------------*/
+.project-page {
+  background-color: #f5f8fd; /* Alterando o fundo para um tom mais claro */
+  color: #272829; /* Mantendo a cor do texto */
+  padding: 60px 0; /* Espaçamento interno para o conteúdo */
+}
+
+.project-page h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c; /* Cor para os títulos */
+}
+
+.project-page p {
+  margin-bottom: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 420px; /* largura do card */
+  height: 950px; /* altura do card */
+  margin-bottom: 20px; /* espaçamento entre os cards */
+  box-sizing: border-box; /* para considerar o padding e a borda na largura e altura */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card-body {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card-img-top {
+  width: 90%;
+  height: 90%;
+}
+
+.card-title {
+  font-size: 1.5rem; /* tamanho do título */
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+.card-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.card-text {
+  font-size: 1.1rem; /* tamanho do texto */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%; /* Botão preencher a largura do card */
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 420px; /* largura do card */
+  height: 600px; /* altura do card */
+  margin-bottom: 20px; /* espaçamento entre os cards */
+  box-sizing: border-box; /* para considerar o padding e a borda na largura e altura */
+}
+
 
 /*--------------------------------------------------------------
 # Footer
